@@ -297,65 +297,393 @@
   </section>
 
   <!-- About with Parallax -->
-  <section id="about" class="about section-pad" aria-label="О бренде">
-    <div class="container about-wrap">
-      <div class="about-img reveal" data-parallax>
-        <img src="unnamed.jpg" alt="Ателье бренда Serioz & Seriozka" />
-      </div>
-      <div class="about-copy">
-        <h2 class="about-head reveal">Мы создаём не одежду, а воспоминания</h2>
-        <p class="about-text reveal" style="transition-delay:.08s">
-          Serioz &amp; Seriozka — премиальный свадебный дом, где каждая деталь несёт ценность. Мы культивируем ремесло, которое переживает поколения, соединяя продуманный дизайн, архитектуру силуэта и безупречную посадку. Наши мастера вручную отбирают материалы, доводят отделку и оставляют место для вашей истории.
-        </p>
-        <p class="about-text reveal" style="transition-delay:.16s">
-          В основе бренда — разговор пары в темном помещении
-        </p>
-      </div>
-    </div>
-  </section>
-
- <!-- Gallery / Lookbook -->
+ <!-- HTML -->
 <section id="gallery" class="gallery section-pad" aria-label="Галерея и лукбук">
   <div class="container">
     <h2 class="section-title reveal">Лукбук</h2>
     <p class="section-sub reveal" style="transition-delay:.08s">СОЗДАТЕЛЬ</p>
+<div class="lookbook-columns">
+  <!-- Женская сторона -->
+  <div class="lookbook-col" aria-label="Женская коллекция">
+    <h3 class="lookbook-col-title reveal" style="transition-delay:.1s">Женская коллекция</h3>
 
     <div class="lookbook-grid">
-      <figure class="lookbook-item reveal">
-        <div class="lookbook-image">
-          <img src="https://i.pinimg.com/736x/8e/51/f5/8e51f530f75b2dc8f1586a18a2da283b.jpg" alt="Лук 01 — украшения и силуэт" loading="lazy" />
-        </div>
-        <figcaption class="lookbook-caption">Лук 01 — Белый дерзкий мужской костюм</figcaption>
-      </figure>
-
-      <figure class="lookbook-item reveal">
-        <div class="lookbook-image">
-          <img src="https://i.pinimg.com/736x/6a/6f/bf/6a6fbf49e352bbd75f8ae68880a8e0b6.jpg" alt="Лук 02 — костюм, текстуры, свет" loading="lazy" />
-        </div>
+      <figure class="lookbook-item reveal" data-gender="female">
+        <button
+          class="lookbook-trigger"
+          type="button"
+          data-title="Лук 02 — Женское дерзкое свадебное кимоно"
+          data-description="Легкое кимоно с акцентом на текстуру и пояс. Мягкие линии, ручная отделка, универсальная посадка."
+          data-img="https://i.pinimg.com/736x/6a/6f/bf/6a6fbf49e352bbd75f8ae68880a8e0b6.jpg"
+        >
+          <span class="sr-only">Открыть просмотр: Лук 02 — Женское дерзкое свадебное кимоно</span>
+          <div class="lookbook-image">
+            <img src="https://i.pinimg.com/736x/6a/6f/bf/6a6fbf49e352bbd75f8ae68880a8e0b6.jpg" alt="Лук 02 — Женское дерзкое свадебное кимоно" loading="lazy" />
+          </div>
+        </button>
         <figcaption class="lookbook-caption">Лук 02 — Женское дерзкое свадебное кимоно</figcaption>
       </figure>
 
-      <figure class="lookbook-item reveal">
-        <div class="lookbook-image">
-          <img src="https://i.pinimg.com/736x/10/a7/93/10a7931f510143ff161898935a36d13e.jpg" alt="Лук 03 — платье и архитектура силуэта" loading="lazy" />
-        </div>
-        <figcaption class="lookbook-caption">Лук 03 — костюм и архитектура силуэта</figcaption>
+      <figure class="lookbook-item reveal" data-gender="female">
+        <button
+          class="lookbook-trigger"
+          type="button"
+          data-title="Лук 04 — Японское свадебное платье"
+          data-description="Платье с архитектурным силуэтом и выразительными деталями. Подчёркнутая талия, структурированные формы."
+          data-img="https://i.pinimg.com/1200x/68/de/1a/68de1ac2b27891162e695ad1626251bc.jpg"
+        >
+          <span class="sr-only">Открыть просмотр: Лук 04 — Японское свадебное платье</span>
+          <div class="lookbook-image">
+            <img src="https://i.pinimg.com/1200x/68/de/1a/68de1ac2b27891162e695ad1626251bc.jpg" width="700" height="600" alt="Лук 04 — Повелитель Гиасса" loading="lazy" />
+          </div>
+        </button>
+        <figcaption class="lookbook-caption">Лук 04 — Японское свадебное платье</figcaption>
       </figure>
 
-      <figure class="lookbook-item reveal">
-        <div class="lookbook-image">
-          <img src="ab924b34-2e36-454a-9211-79840d516ff7.jpg" width="700" height="600" alt="Лук 04 — детали ручной работы" loading="lazy" />
-        </div>
-        <figcaption class="lookbook-caption">Лук 04 — Повелитель Гиасса</figcaption>
+      <!-- Новые картинки (женская) -->
+      <figure class="lookbook-item reveal" data-gender="female">
+        <button
+          class="lookbook-trigger"
+          type="button"
+          data-title="Лук 05 — Женское платье, минимализм"
+          data-description="Минималистичное платье прямого кроя. Чистые линии, акцент на ткани и пропорциях."
+          data-img="https://i.pinimg.com/736x/78/da/e2/78dae22630f1eb972f6a9f2d3aa86f5a.jpg"
+        >
+          <span class="sr-only">Открыть просмотр: Лук 05 — Женское платье, минимализм</span>
+          <div class="lookbook-image">
+            <img src="https://i.pinimg.com/736x/78/da/e2/78dae22630f1eb972f6a9f2d3aa86f5a.jpg" alt="Лук 05 — Женское платье, минимализм" loading="lazy" />
+          </div>
+        </button>
+        <figcaption class="lookbook-caption">Лук 05 — Женское платье, минимализм</figcaption>
       </figure>
-    </div>
 
-    
-      </a>
+      <figure class="lookbook-item reveal" data-gender="female">
+        <button
+          class="lookbook-trigger"
+          type="button"
+          data-title="Лук 06 — Жакет и юбка, текстуры"
+          data-description="Комплект с фактурной тканью: жакет с мягкими плечами и юбка миди. Комфорт и выразительность."
+          data-img="https://i.pinimg.com/736x/e8/8b/4a/e88b4abbcc922ee77ebb740760a9a982.jpg"
+        >
+          <span class="sr-only">Открыть просмотр: Лук 06 — Жакет и юбка, текстуры</span>
+          <div class="lookbook-image">
+            <img src="https://i.pinimg.com/736x/e8/8b/4a/e88b4abbcc922ee77ebb740760a9a982.jpg" alt="Лук 06 — Жакет и юбка, текстуры" loading="lazy" />
+          </div>
+        </button>
+        <figcaption class="lookbook-caption">Лук 06 — Жакет и юбка, текстуры</figcaption>
+      </figure>
     </div>
   </div>
-</section>
 
+  <!-- Мужская сторона -->
+  <div class="lookbook-col" aria-label="Мужская коллекция">
+    <h3 class="lookbook-col-title reveal" style="transition-delay:.1s">Мужская коллекция</h3>
+
+    <div class="lookbook-grid">
+      <figure class="lookbook-item reveal" data-gender="male">
+        <button
+          class="lookbook-trigger"
+          type="button"
+          data-title="Лук 01 — Белый дерзкий мужской костюм"
+          data-description="Двубортный костюм с острыми лацканами и выразительной посадкой. Чистый белый цвет для смелого образа."
+          data-img="https://i.pinimg.com/736x/8e/51/f5/8e51f530f75b2dc8f1586a18a2da283b.jpg"
+        >
+          <span class="sr-only">Открыть просмотр: Лук 01 — Белый дерзкий мужской костюм</span>
+          <div class="lookbook-image">
+            <img src="https://i.pinimg.com/736x/8e/51/f5/8e51f530f75b2dc8f1586a18a2da283b.jpg" alt="Лук 01 — Белый дерзкий мужской костюм" loading="lazy" />
+          </div>
+        </button>
+        <figcaption class="lookbook-caption">Лук 01 — Белый дерзкий мужской костюм</figcaption>
+      </figure>
+
+      <figure class="lookbook-item reveal" data-gender="male">
+        <button
+          class="lookbook-trigger"
+          type="button"
+          data-title="Лук 03 — Костюм и архитектура силуэта"
+          data-description="Структурированный костюм с графичной линией плеча и продуманной посадкой. Акцент на пропорциях."
+          data-img="https://i.pinimg.com/736x/10/a7/93/10a7931f510143ff161898935a36d13e.jpg"
+        >
+          <span class="sr-only">Открыть просмотр: Лук 03 — Костюм и архитектура силуэта</span>
+          <div class="lookbook-image">
+            <img src="https://i.pinimg.com/736x/10/a7/93/10a7931f510143ff161898935a36d13e.jpg" alt="Лук 03 — Костюм и архитектура силуэта" loading="lazy" />
+          </div>
+        </button>
+        <figcaption class="lookbook-caption">Лук 03 — Костюм и архитектура силуэта</figcaption>
+      </figure>
+
+      <!-- Новые картинки (мужская) -->
+      <figure class="lookbook-item reveal" data-gender="male">
+        <button
+          class="lookbook-trigger"
+          type="button"
+          data-title="Лук 05 — Мужской костюм, кэжуал"
+          data-description="Костюм с неформальным характером: мягкая конструкция, комфортная ткань, современная посадка."
+          data-img="https://i.pinimg.com/736x/d7/d0/8c/d7d08cccaee0bfc30a41df9056a370a1.jpg"
+        >
+          <span class="sr-only">Открыть просмотр: Лук 05 — Мужской костюм, кэжуал</span>
+          <div class="lookbook-image">
+            <img src="https://i.pinimg.com/736x/d7/d0/8c/d7d08cccaee0bfc30a41df9056a370a1.jpg" alt="Лук 05 — Мужской костюм, кэжуал" loading="lazy" />
+          </div>
+        </button>
+        <figcaption class="lookbook-caption">Лук 05 — Мужской костюм, кэжуал</figcaption>
+      </figure>
+
+      <figure class="lookbook-item reveal" data-gender="male">
+        <button
+          class="lookbook-trigger"
+          type="button"
+          data-title="Лук 06 — Жилет и брюки, контраст"
+          data-description="Комплект из жилета и брюк с контрастными фактурами. Лаконичные линии и выразительные детали."
+          data-img="https://i.pinimg.com/1200x/ac/c0/db/acc0dbbd9893b4d22f417a99c83d5b8b.jpg"
+        >
+          <span class="sr-only">Открыть просмотр: Лук 06 — Жилет и брюки, контраст</span>
+          <div class="lookbook-image">
+            <img src="https://i.pinimg.com/1200x/ac/c0/db/acc0dbbd9893b4d22f417a99c83d5b8b.jpg" alt="Лук 06 — Жилет и брюки, контраст" loading="lazy" />
+          </div>
+        </button>
+        <figcaption class="lookbook-caption">Лук 06 — Жилет и брюки, контраст</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+<!-- Модалка просмотра -->
+<div id="lookbook-modal" class="lookbook-modal" role="dialog" aria-modal="true" aria-labelledby="lookbook-modal-title" hidden>
+  <div class="lookbook-modal-backdrop" data-close="true"></div>
+  <div class="lookbook-modal-dialog" role="document">
+    <button type="button" class="lookbook-modal-close" aria-label="Закрыть" data-close="true">✕</button>
+    <div class="lookbook-modal-media">
+      <img id="lookbook-modal-img" src="" alt="" />
+    </div>
+    <div class="lookbook-modal-content">
+      <h4 id="lookbook-modal-title"></h4>
+      <p id="lookbook-modal-desc"></p>
+    </div>
+  </div>
+</div>
+<!-- CSS -->
+<style>
+  .lookbook-columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 36px;
+    align-items: start;
+  }
+
+  .lookbook-col {
+    display: grid;
+    gap: 16px;
+  }
+
+  .lookbook-col-title {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    font-weight: 600;
+    margin: 0 0 8px;
+  }
+
+  /* 4 маленьких колонки с каждой стороны */
+  .lookbook-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .lookbook-item {
+    margin: 0;
+    display: grid;
+    gap: 8px;
+  }
+
+  .lookbook-trigger {
+    appearance: none;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    text-align: inherit;
+  }
+
+  .lookbook-trigger:focus-visible .lookbook-image {
+    outline: 2px solid #222;
+    outline-offset: 2px;
+  }
+
+  .lookbook-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    aspect-ratio: 2 / 3; /* иконки немного больше */
+    background: #f6f6f6;
+  }
+
+  .lookbook-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .lookbook-caption {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0);
+    white-space: nowrap; border: 0;
+  }
+
+  /* Модальное окно */
+  .lookbook-modal[hidden] { display: none; }
+
+  .lookbook-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+  }
+
+  .lookbook-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: saturate(120%) blur(2px);
+  }
+
+  .lookbook-modal-dialog {
+    position: relative;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 420px;
+    gap: 0;
+  }
+
+  .lookbook-modal-close {
+    position: absolute;
+    top: 10px; right: 10px;
+    border: 0;
+    background: rgba(0,0,0,0.06);
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .lookbook-modal-media {
+    background: #111;
+    display: grid;
+    place-items: center;
+  }
+
+  .lookbook-modal-media img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .lookbook-modal-content {
+    padding: 20px 24px;
+    display: grid;
+    align-content: start;
+    gap: 10px;
+  }
+
+  .lookbook-modal-content h4 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .lookbook-modal-content p {
+    margin: 0;
+    color: #444;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 1280px) {
+    .lookbook-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .lookbook-modal-dialog {
+      max-width: 860px;
+      grid-template-columns: minmax(0, 1fr) 380px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .lookbook-columns {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .lookbook-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .lookbook-modal-dialog {
+      margin: 20px;
+      grid-template-columns: 1fr;
+    }
+    .lookbook-modal-content {
+      padding: 16px;
+    }
+  }
+</style>
+<!-- JS -->
+<script>
+  (function () {
+    const modal = document.getElementById('lookbook-modal');
+    const img = document.getElementById('lookbook-modal-img');
+    const title = document.getElementById('lookbook-modal-title');
+    const desc = document.getElementById('lookbook-modal-desc');
+
+    function openModal(data) {
+      img.src = data.img;
+      img.alt = data.title;
+      title.textContent = data.title;
+      desc.textContent = data.description;
+      modal.hidden = false;
+      document.body.classList.add('modal-open');
+    }
+
+    function closeModal() {
+      modal.hidden = true;
+      img.src = '';
+      document.body.classList.remove('modal-open');
+    }
+
+    modal.addEventListener('click', (e) => {
+      if (e.target.dataset.close === 'true') {
+        closeModal();
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !modal.hidden) {
+        closeModal();
+      }
+    });
+
+    document.querySelectorAll('.lookbook-trigger').forEach(btn => {
+      btn.addEventListener('click', () => {
+        openModal({
+          img: btn.dataset.img,
+          title: btn.dataset.title,
+          description: btn.dataset.description
+        });
+      });
+    });
+  })();
+</script>
   <!-- Trust & Contacts -->
   <section id="trust" class="trust section-pad" aria-label="Доверие и контакты">
     <div class="container">
